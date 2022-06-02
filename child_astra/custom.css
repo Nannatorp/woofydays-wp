@@ -1,3 +1,30 @@
+/* ------ GENERELT ------ */
+body {
+  --wp--style--block-gap: 0em;
+}
+
+.wp-container-7.wp-block-columns {
+  gap: 0px;
+}
+
+/* ------ GENERELT SLUT------ */
+
+/* ------ FORSIDE ------ */
+h1.has-text-align-right.has-x-large-font-size {
+  font-size: 90px !important;
+  font-family: ohno-blazeface, sans-serif;
+  font-weight: 200;
+  margin: 100px 0px 0px 0px;
+}
+h1.has-text-color.has-large-font-size {
+  font-size: 300px !important;
+  font-family: ohno-blazeface, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin: 0px;
+}
+/* ------ FORSIDE SLUT ------ */
+
 /* ------ PRODUKT SIDE -------- */
 .produkttitel {
   text-align: center;
@@ -132,3 +159,11 @@
   grid-row: 7/8;
 }
 /* ------ SINGLEVIEW SIDE SLUT -------- */
+
+@media (min-width: 993px) {
+  .ast-separate-container #primary,
+  .ast-separate-container.ast-left-sidebar #primary,
+  .ast-separate-container.ast-right-sidebar #primary {
+    margin: 0em 0;
+  }
+}
