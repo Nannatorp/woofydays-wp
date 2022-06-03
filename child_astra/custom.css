@@ -1,10 +1,20 @@
 /* ------ GENERELT ------ */
+html body {
+  --wp--custom--ast-content-width-size: 1200px;
+}
 body {
   --wp--style--block-gap: 0em;
 }
-
+.wp-block-video {
+  margin: 0px;
+  padding: 100px;
+}
+.entry-content .wp-block-columns {
+  padding: 20px;
+}
 .wp-container-7.wp-block-columns {
   gap: 0px;
+  margin: 20px;
 }
 
 a:focus,
@@ -13,8 +23,29 @@ a:visited {
   outline: solid 0px !important;
   border: none !important;
 }
-
 /* ------ GENERELT SLUT------ */
+
+/* ------ PRODUKT KASSER ALLE SIDER ------ */
+figure.wp-block-image.size-medium.rainbowset,
+figure.wp-block-image.size-medium.lillaset,
+figure.wp-block-image.size-medium.yellowset,
+figure.wp-block-image.size-medium.greenset,
+figure.wp-block-image.size-medium.adventureset {
+  border: solid #f4c7b0;
+  margin: 20px 10px 0px 10px;
+}
+p.rainbowtext,
+p.lillatext,
+p.yellowtext,
+p.greentext,
+p.adventuresettext {
+  background-color: white;
+  border: solid #f4c7b0;
+  border-style: none solid solid solid;
+  margin: 0px 10px 20px 10px;
+  padding-left: 10px;
+}
+/* ------ PRODUKT KASSER ALLE SIDER SLUT ------ */
 
 /* ------ FORSIDE ------ */
 h1.has-text-align-right.has-x-large-font-size {
@@ -39,26 +70,29 @@ h1.has-text-color.has-large-font-size {
 
 .produktcontainer {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   margin: 0px 100px;
+  cursor: pointer;
 }
 
 #produkt-article {
   margin: 50px 30px;
   background-color: #ffffff;
+  cursor: pointer;
 }
 
 #produkt-article h2,
 .pris {
   padding: 10px 10px 0px 10px;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 .billede1 {
   border: solid #f4c7b0;
 }
 .produkt-info {
   border: solid #f4c7b0;
+  border-style: none solid solid solid;
 }
 #filtrering {
   display: flex;
@@ -100,7 +134,7 @@ h1.has-text-color.has-large-font-size {
 
 #singleview2 {
   display: grid;
-  grid-template-columns: 1fr, 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: auto 1fr;
 }
 .produktbeskrivelse {
