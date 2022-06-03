@@ -42,8 +42,17 @@ get_header(); ?>
       <p class="beskrivelse-6"></p>
     </article>
      
-    <!-- footer -->
-    
+    <!-- poter -->
+	<img
+        src="https://nannatorp.dk/kea/10_eksamensprojekt/woofydays-wp/wp-content/uploads/2022/06/paws_line3.svg"
+        alt="Grafik med farvede poter"
+      />
+	  <!-- poter slut-->
+      <!-- footer -->
+      <img
+        src="https://nannatorp.dk/kea/10_eksamensprojekt/woofydays-wp/wp-content/uploads/2022/06/footer.svg"
+        alt="footer med potegrafik og regnbuegrafik"
+      />
       <!-- footer slut -->
   </main>
   <script>

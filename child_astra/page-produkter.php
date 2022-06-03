@@ -33,7 +33,11 @@ get_header(); ?>
   <div id="primary" class="content-area">
     <main id="main" class="site-main">
       <!-- splashbillede -->
-     
+      <img
+        class="wp-block-cover__image-background"
+        alt="hund og ejer går med ryggen til så man kan se taske, sele og snor fra woofyday"
+        src="https://nannatorp.dk/kea/10_eksamensprojekt/woofydays-wp/wp-content/uploads/2022/06/gåtur_v2-scaled.webp"
+      />
       <!-- produkter og knapper -->
 
       <nav id="filtrering">
@@ -45,9 +49,16 @@ get_header(); ?>
       <section class="produktcontainer"></section>
 
       <!-- poter -->
-      
+      <img
+        src="https://nannatorp.dk/kea/10_eksamensprojekt/woofydays-wp/wp-content/uploads/2022/06/paws_line3.svg"
+        alt="Grafik med farvede poter"
+      />
+      <!-- poter slut-->
       <!-- footer -->
-      
+      <img
+        src="https://nannatorp.dk/kea/10_eksamensprojekt/woofydays-wp/wp-content/uploads/2022/06/footer.svg"
+        alt="footer med potegrafik og regnbuegrafik"
+      />
       <!-- footer slut -->
     </main>
     <!-- #main -->
