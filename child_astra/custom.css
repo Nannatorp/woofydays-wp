@@ -9,19 +9,19 @@ body {
   margin: 0px;
   padding: 100px;
 }
-.entry-content .wp-block-columns {
-  padding: 20px;
+.ast-breadcrumbs {
+  margin: 10px 0px;
 }
-.wp-container-7.wp-block-columns {
-  gap: 0px;
-  margin: 20px;
-}
-
 a:focus,
 a:active,
 a:visited {
   outline: solid 0px !important;
   border: none !important;
+}
+/* - 6 kasser på forsiden -  */
+.wp-container-7.wp-block-columns {
+  gap: 0px;
+  margin: 0px 100px;
 }
 /* ------ GENERELT SLUT------ */
 
