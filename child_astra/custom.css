@@ -7,6 +7,13 @@ body {
   gap: 0px;
 }
 
+a:focus,
+a:active,
+a:visited {
+  outline: solid 0px !important;
+  border: none !important;
+}
+
 /* ------ GENERELT SLUT------ */
 
 /* ------ FORSIDE ------ */
