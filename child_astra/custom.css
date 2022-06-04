@@ -359,8 +359,17 @@ a.wp-block-button_link.has-background:hover {
 .om_column2 {
   margin-bottom: 50px !important;
 }
-
 /* ------ OM OS SIDE SLUT ------ */
+
+/* ------ STØRRELSES GUIDE ------ */
+.size_column {
+  margin: 50px 15px 100px 100px !important;
+}
+.size_video {
+  padding: 0px !important;
+  margin: 50px 100px 100px 15px !important;
+}
+/* ------ STØRRELSES GUIDE SLUT ------ */
 
 @media (min-width: 993px) {
   .ast-separate-container #primary,
