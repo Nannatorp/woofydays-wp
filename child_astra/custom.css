@@ -7,10 +7,26 @@ body {
 }
 .wp-block-video {
   margin: 0px;
-  padding: 100px;
+  padding: 100px 100px 50px 100px;
 }
 .ast-breadcrumbs {
   margin: 10px 0px;
+}
+img.wp-image-398 {
+  animation-name: puls_kf;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+@keyframes puls_kf {
+  0% {
+    transform: scale(0.8);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 a:focus,
 a:active,
@@ -18,6 +34,10 @@ a:visited {
   outline: solid 0px !important;
   border: none !important;
 }
+.wp-container-11.wp-block-columns {
+  margin: 0px 100px 100px 100px;
+}
+
 /* - 6 kasser på forsiden -  */
 .wp-container-7.wp-block-columns {
   gap: 0px;
@@ -26,23 +46,15 @@ a:visited {
 /* ------ GENERELT SLUT------ */
 
 /* ------ PRODUKT KASSER ALLE SIDER ------ */
-figure.wp-block-image.size-medium.rainbowset,
-figure.wp-block-image.size-medium.lillaset,
-figure.wp-block-image.size-medium.yellowset,
-figure.wp-block-image.size-medium.greenset,
-figure.wp-block-image.size-medium.adventureset {
+.img_border {
   border: solid #f4c7b0;
-  margin: 20px 10px 0px 10px;
+  margin: 20px 20px 0px 0px;
 }
-p.rainbowtext,
-p.lillatext,
-p.yellowtext,
-p.greentext,
-p.adventuresettext {
+.p_border {
   background-color: white;
   border: solid #f4c7b0;
   border-style: none solid solid solid;
-  margin: 0px 10px 20px 10px;
+  margin: 0px 20px 20px 0px;
   padding-left: 10px;
 }
 /* ------ PRODUKT KASSER ALLE SIDER SLUT ------ */
@@ -60,6 +72,70 @@ h1.has-text-color.has-large-font-size {
   font-weight: 400;
   font-style: italic;
   margin: 0px;
+}
+
+.farverig_kvalitet {
+  margin-left: 100px;
+}
+.farverig_ptext1 {
+  padding-right: 10px;
+}
+.farverig_ptext2 {
+  padding-left: 10px;
+}
+
+img.wp-image-166 {
+  padding: 20px 15px 20px 100px;
+}
+.forside_column1 {
+  margin-right: 100px !important;
+  background: rgba(255, 255, 255, 0.11);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.9px);
+  -webkit-backdrop-filter: blur(3.9px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+.overskrift_forside_kvindeejet {
+  padding: 20px 20px 0px 15px;
+}
+.forside_h3 {
+  padding: 0px 20px 0px 15px;
+  margin: 0px 0px 15px 0px !important;
+}
+.forside_p_tekst {
+  padding: 0px 20px 0px 15px !important;
+  margin: 0px 0px 15px 0px !important;
+}
+.forside_h2_del {
+  margin: 0px 20px 20px 100px !important;
+}
+.forside_ig_box {
+  margin: 0px 100px !important;
+}
+.footer_link1 {
+  margin: 50px 10px 10px 100px !important;
+}
+.footer_link2,
+.footer_link3 {
+  margin: 10px 10px 10px 100px !important;
+}
+.footer_link4 {
+  margin: 10px 10px 50px 100px !important;
+}
+
+.forside_nyhedsbrev {
+  margin: 50px 100px 10px 10px !important;
+}
+.forside_email {
+  margin: 10px 100px 50px 10px !important;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.19);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border: 1px solid rgba(255, 255, 255, 0.47);
 }
 /* ------ FORSIDE SLUT ------ */
 
@@ -200,6 +276,91 @@ h1.has-text-color.has-large-font-size {
   grid-row: 7/8;
 }
 /* ------ SINGLEVIEW SIDE SLUT -------- */
+
+/* ------ FØDSELSDAG SIDE ------ */
+
+div.wpforms-container-full .wpforms-form input[type="email"],
+div.wpforms-container-full .wpforms-form input[type="text"],
+div.wpforms-container-full .wpforms-form textarea {
+  background-color: #f4c7a2;
+  border: none;
+  border-radius: 7px;
+  max-width: 60%;
+  border-radius: 7px;
+}
+
+div.wpforms-container-full .wpforms-form input[type="submit"],
+div.wpforms-container-full .wpforms-form button[type="submit"],
+div.wpforms-container-full .wpforms-form .wpforms-page-button {
+  background-color: #f4c7b0;
+  border: none;
+  border-radius: 7px;
+}
+
+div.wpforms-container-full .wpforms-form input[type="submit"]:hover,
+div.wpforms-container-full .wpforms-form input[type="submit"]:focus,
+div.wpforms-container-full .wpforms-form input[type="submit"]:active,
+div.wpforms-container-full .wpforms-form button[type="submit"]:hover,
+div.wpforms-container-full .wpforms-form button[type="submit"]:focus,
+div.wpforms-container-full .wpforms-form button[type="submit"]:active,
+div.wpforms-container-full .wpforms-form .wpforms-page-button:hover,
+div.wpforms-container-full .wpforms-form .wpforms-page-button:active,
+div.wpforms-container-full .wpforms-form .wpforms-page-button:focus {
+  background-color: #f2dcf3;
+  border: none;
+}
+
+.birth_h2 {
+  margin: 0px 20px 0px 100px;
+}
+.birth_p1 {
+  margin: 0px 20px 0px 100px;
+}
+.birth_column {
+  margin: 50px 20px 50px 100px !important;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+.birth_column_pick {
+  margin: 0px 100px !important;
+}
+.birth_h2_box {
+  margin: 0px 100px 20px 100px !important;
+}
+a.wp-block-button_link.has-background:hover {
+  background-color: #f4c7b0;
+}
+/* ------ FØDSELSDAG SIDE SLUT------ */
+
+/* ------ OM OS SIDE ------ */
+.om_h2 {
+  margin: 0px 10px 0px 100px !important;
+}
+.om_column1 {
+  margin: 0px 100px 0px 10px !important;
+}
+
+.om_h2_historie {
+  margin-left: 100px;
+}
+.om_p_historie1 {
+  margin-left: 100px;
+  padding-right: 10px;
+}
+.om_p_historie2 {
+  margin-right: 100px;
+  padding-left: 10px;
+}
+.om_column2 {
+  margin-bottom: 50px !important;
+}
+
+/* ------ OM OS SIDE SLUT ------ */
 
 @media (min-width: 993px) {
   .ast-separate-container #primary,
