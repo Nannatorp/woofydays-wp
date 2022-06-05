@@ -48,15 +48,17 @@ a:visited {
 /* ------ PRODUKT KASSER ALLE SIDER ------ */
 .img_border {
   border: solid #f4c7b0;
-  margin: 20px 20px 0px 0px;
+  margin: 0px 10px;
 }
+
 .p_border {
   background-color: white;
   border: solid #f4c7b0;
   border-style: none solid solid solid;
-  margin: 0px 20px 20px 0px;
+  margin: 0px 10px;
   padding-left: 10px;
 }
+
 /* ------ PRODUKT KASSER ALLE SIDER SLUT ------ */
 
 /* ------ FORSIDE ------ */
@@ -158,7 +160,7 @@ img.wp-image-166 {
 }
 
 #produkt-article h2,
-.pris {
+#produkt-article .pris {
   padding: 10px 10px 0px 10px;
   font-weight: bold;
   font-size: 1.2rem;
@@ -185,6 +187,7 @@ img.wp-image-166 {
   margin: 0px 5px 15px 5px;
   padding: 10px 30px;
 }
+
 #filtrering button:hover {
   background-color: #f4c7b0;
 }
@@ -198,14 +201,79 @@ img.wp-image-166 {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   grid-template-rows: auto 1fr;
-  background-color: #f2dcf3;
-}
-#singleview h2 {
-  grid-column: 5/8;
+  background-color: #f9e99b;
+  padding: 100px;
 }
 
-#singleview .pris {
+#innersingleview {
   grid-column: 5/8;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(5, 0.2fr) 2fr;
+}
+#innersingleview h2 {
+  padding-left: 25px;
+  margin-bottom: 10px !important;
+  font-weight: bold;
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+
+#innersingleview .pris {
+  padding-left: 25px;
+  margin-bottom: 10px !important;
+  font-size: 1.1rem;
+  grid-column: 1/3;
+  grid-row: 2/3;
+}
+#innersingleview .sizeguide {
+  margin: 10px 10px 10px 10px !important;
+  width: 95%;
+  grid-column: 1/3;
+  grid-row: 3/4;
+}
+
+#innersingleview .hjerte {
+  padding-left: 60px;
+  margin: 10px 0px !important;
+  font-size: 1.5rem;
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+#innersingleview .size_s {
+  margin: 10px 10px 10px 25px !important;
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+#innersingleview .size_m {
+  margin: 10px !important;
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+#innersingleview .size_l {
+  margin: 10px !important;
+  grid-column: 3/4;
+  grid-row: 4/5;
+}
+#innersingleview .item {
+  margin: 10px 10px 10px 25px !important;
+  grid-column: 1/2;
+  grid-row: 5/6;
+  word-spacing: 10px;
+}
+#innersingleview .basket {
+  margin: 10px !important;
+  grid-column: 2/4;
+  grid-row: 5/6;
+}
+.billedeStor {
+  position: absolute;
+  top: 6.6%;
+  left: 25.2%;
+  width: 29.6%;
+}
+.billedecontainer {
+  width: 80%;
 }
 
 #singleview2 {
@@ -216,65 +284,145 @@ img.wp-image-166 {
 .produktbeskrivelse {
   font-weight: bold;
   font-size: 2rem;
+  margin: 100px 100px 20px 100px !important;
 }
 .underoverskrift-1 {
   grid-column: 1/2;
   grid-row: 2/3;
   font-weight: bold;
+  margin: 0px 20px 10px 100px !important;
 }
 .beskrivelse-1 {
   grid-column: 1/2;
   grid-row: 3/4;
-  padding-right: 20px;
+  margin: 0px 20px 20px 100px !important;
 }
 
 .underoverskrift-2 {
   grid-column: 1/2;
   grid-row: 4/5;
   font-weight: bold;
+  margin: 0px 20px 10px 100px !important;
 }
 .beskrivelse-2 {
   grid-column: 1/2;
   grid-row: 5/6;
-  padding-right: 20px;
+
+  margin: 0px 20px 20px 100px !important;
 }
 .underoverskrift-3 {
   grid-column: 1/2;
   grid-row: 6/7;
   font-weight: bold;
+  margin: 0px 20px 10px 100px !important;
 }
 .beskrivelse-3 {
   grid-column: 1/2;
   grid-row: 7/8;
-  padding-right: 20px;
+
+  margin: 0px 20px 20px 100px !important;
 }
 .underoverskrift-4 {
   grid-column: 2/3;
   grid-row: 2/3;
   font-weight: bold;
+  margin: 0px 100px 10px 20px !important;
 }
 .beskrivelse-4 {
   grid-column: 2/3;
   grid-row: 3/4;
+  margin: 0px 100px 20px 20px !important;
 }
 .underoverskrift-5 {
   grid-column: 2/3;
   grid-row: 4/5;
   font-weight: bold;
+  margin: 0px 100px 10px 20px !important;
 }
 .beskrivelse-5 {
   grid-column: 2/3;
   grid-row: 5/6;
+  margin: 0px 100px 20px 20px !important;
 }
 .underoverskrift-6 {
   grid-column: 2/3;
   grid-row: 6/7;
   font-weight: bold;
+  margin: 0px 100px 10px 20px !important;
 }
 .beskrivelse-6 {
   grid-column: 2/3;
   grid-row: 7/8;
+  margin: 0px 100px 20px 20px !important;
 }
+#singleview3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto 1fr;
+  grid-column-gap: 20px;
+  margin: 100px !important;
+}
+#kiggede1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  border: solid #f4c7b0;
+  margin: 0px 10px !important;
+}
+.lilla_walk {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  margin-bottom: 0px !important;
+}
+.lilla_pris {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  margin: 0px !important;
+}
+#kiggede2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  border: solid #f4c7b0;
+  margin: 0px 10px !important;
+}
+
+.green_walk {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  margin-bottom: 0px !important;
+}
+.green_pris {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  margin: 0px !important;
+}
+#kiggede3 {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  border: solid #f4c7b0;
+  margin: 0px 10px !important;
+}
+.yellow_walk {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  margin-bottom: 0px !important;
+}
+.yellow_pris {
+  grid-column: 3/4;
+  grid-row: 3/4;
+  margin: 0px !important;
+}
+.border {
+  background-color: white;
+  border: solid #f4c7b0;
+  border-style: none solid solid solid;
+  margin: 0px 10px !important;
+  padding-left: 10px;
+  width: 100%;
+}
+.poter_singleview {
+  margin-bottom: 100px;
+}
+
 /* ------ SINGLEVIEW SIDE SLUT -------- */
 
 /* ------ FØDSELSDAG SIDE ------ */
@@ -330,7 +478,7 @@ div.wpforms-container-full .wpforms-form .wpforms-page-button:focus {
   margin: 0px 100px !important;
 }
 .birth_h2_box {
-  margin: 0px 100px 20px 100px !important;
+  margin: 0px 100px 20px 110px !important;
 }
 a.wp-block-button_link.has-background:hover {
   background-color: #f4c7b0;
@@ -371,6 +519,48 @@ a.wp-block-button_link.has-background:hover {
 }
 /* ------ STØRRELSES GUIDE SLUT ------ */
 
+/* ------ FAVORIT SIDE ------ */
+.favorit_box {
+  padding: 100px 100px 100px 100px !important;
+}
+.andre_kiggede {
+  margin: 0px 100px 20px 110px !important;
+}
+.favorit_box2 {
+  margin: 0px 100px 100px 100px !important;
+}
+/* ------ FAVORIT SIDE SLUT ------ */
+
+/* ------ KURV SIDE ------ */
+.kurv_box1 {
+  margin: 100px 100px 50px 100px !important;
+}
+.kurv_box2 {
+  margin: 0px 100px 0px 100px !important;
+}
+.kurv_tex1,
+.kurv_tex2 {
+  margin: 20px 50px !important;
+}
+.button1 {
+  margin: 0px 20px 20px 0px !important;
+  word-spacing: 30px;
+}
+
+.button2 {
+  margin: 0px 20px 20px 0px !important;
+}
+.fjernkurv {
+  text-decoration: underline;
+}
+.kurv_total_box {
+  margin: 0px 100px !important;
+}
+.kurv_button {
+  margin: 50px !important;
+}
+/* ------ KURV SIDE SLUT ------ */
+
 @media (min-width: 993px) {
   .ast-separate-container #primary,
   .ast-separate-container.ast-left-sidebar #primary,
@@ -378,3 +568,37 @@ a.wp-block-button_link.has-background:hover {
     margin: 0em 0;
   }
 }
+
+/* ------ MOBIL ------ */
+
+@media (max-width: 544px) {
+  .ast-container,
+  .ast-container-fluid {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .celebrate_column {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 0px 40px !important;
+  }
+  h1.has-text-align-right.has-x-large-font-size {
+    font-size: 30px !important;
+    margin: 30px 1px 0px 0px;
+    /* text-align: left; */
+    grid-column: 1/2;
+  }
+  h1.has-text-color.has-large-font-size {
+    font-size: 100px !important;
+    margin: 0px 0px 0px 1px !important;
+    grid-column: 2/3;
+  }
+  .effekt_container {
+    margin: 0px 40px !important;
+  }
+  .wp-block-video {
+    padding: 40px;
+  }
+}
+/* ------ MOBIL SLUT ------ */

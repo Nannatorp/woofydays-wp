@@ -111,6 +111,7 @@ get_header(); ?>
         filterProdukt = this.dataset.produkt;
         console.log(filterProdukt);
 
+
         //skrifter overskriften
         h1.textContent = this.textContent;
 

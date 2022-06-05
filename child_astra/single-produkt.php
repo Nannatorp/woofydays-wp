@@ -23,8 +23,22 @@ get_header(); ?>
   <main id="main" class="site-main">
     <article id="singleview">
       <div class="billedecontainer"></div>
-      <h2></h2>
-      <p class="pris"></p>
+      <div id="innersingleview">
+        <h2></h2>
+        <p class="pris"></p>
+        <a
+          class="sizeguide"
+          href="https://nannatorp.dk/kea/10_eksamensprojekt/woofydays-wp/storrelsesguide/"
+        >
+          <button class="sizeguide">Størrelsesguide</button></a
+        >
+        <p class="hjerte">❤</p>
+        <button class="size_s">Lille</button>
+        <button class="size_m">Medium</button>
+        <button class="size_l">Stor</button>
+        <button class="item">- 1 +</button>
+        <button class="basket">Læg i indkøbskurv</button>
+      </div>
     </article>
     <article id="singleview2">
       <p class="produktbeskrivelse">Produktbeskrivelse</p>
@@ -41,19 +55,47 @@ get_header(); ?>
       <p class="underoverskrift-6"></p>
       <p class="beskrivelse-6"></p>
     </article>
-     
+    <article id="singleview3">
+      <a
+        href="https://nannatorp.dk/kea/10_eksamensprojekt/woofydays-wp/produkt/one-of-a-kind-walk-kit/"
+      >
+        <img id="kiggede1" src="" alt="" />
+      </a>
+      <div class="border">
+        <a
+          href="https://nannatorp.dk/kea/10_eksamensprojekt/woofydays-wp/produkt/one-of-a-kind-walk-kit/"
+          ><p class="lilla_walk">One of a kind walk kit</p>
+          <p class="lilla_pris">575.00 kr.</p></a
+        >
+      </div>
+
+      <img id="kiggede2" src="" alt="" />
+      <div class="border">
+        <p class="green_walk">Green like a pro walk kit</p>
+        <p class="green_pris">575.00 kr.</p>
+      </div>
+
+      <img id="kiggede3" src="" alt="" />
+
+      <div class="border">
+        <p class="yellow_walk">VIP yellow walk kit</p>
+        <p class="yellow_pris">539.00 kr.</p>
+      </div>
+    </article>
+
     <!-- poter -->
-	<img
-        src="https://nannatorp.dk/kea/10_eksamensprojekt/woofydays-wp/wp-content/uploads/2022/06/paws_line3.svg"
-        alt="Grafik med farvede poter"
-      />
-	  <!-- poter slut-->
-      <!-- footer -->
-      <img
-        src="https://nannatorp.dk/kea/10_eksamensprojekt/woofydays-wp/wp-content/uploads/2022/06/footer.svg"
-        alt="footer med potegrafik og regnbuegrafik"
-      />
-      <!-- footer slut -->
+    <img
+      class="poter_singleview"
+      src="https://nannatorp.dk/kea/10_eksamensprojekt/woofydays-wp/wp-content/uploads/2022/06/paws_line3.svg"
+      alt="Grafik med farvede poter"
+    />
+    <!-- poter slut-->
+    <!-- footer -->
+    <img
+      src="https://nannatorp.dk/kea/10_eksamensprojekt/woofydays-wp/wp-content/uploads/2022/06/footer.svg"
+      alt="footer med potegrafik og regnbuegrafik"
+    />
+    <!-- footer slut -->
   </main>
   <script>
 
@@ -74,6 +116,9 @@ get_header(); ?>
        console.log(produkt.billede.guid);
 
      document.querySelector("h2").textContent = produkt.title.rendered;
+     document.querySelector("#kiggede1").src = produkt.kiggede1.guid;
+     document.querySelector("#kiggede2").src = produkt.kiggede2.guid;
+     document.querySelector("#kiggede3").src = produkt.kiggede3.guid;
      document.querySelector(".pris").textContent = produkt.pris + " kr.";
     document.querySelector(".underoverskrift-1").textContent =
              produkt.underoverskriftet;
