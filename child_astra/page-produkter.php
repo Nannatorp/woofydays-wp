@@ -97,8 +97,7 @@ get_header(); ?>
         addEventListenersToButton();
       }
 
-      // funcktion der laver en click eventListener til knapperne
-      // kigger på alle de knapper som er sat ind i nav
+      // click eventListener til knapperne. Kigger på knapperi nav
 
       function addEventListenersToButton() {
         document.querySelectorAll("#filtrering button").forEach((elm) => {
@@ -106,7 +105,7 @@ get_header(); ?>
         });
       }
 
-      // function der filtrere kanpperne når der klikkes (this = det der er klikket på)
+      // filtrere kanpperne når der klikkes
       function filtrering() {
         filterProdukt = this.dataset.produkt;
         console.log(filterProdukt);
@@ -128,7 +127,6 @@ get_header(); ?>
 
         produkter.forEach((produkt) => {
           //viser produkterne afhæning af hvilken knap der er trykket på
-          // parseInt gør det bliver lavet om til et tal
           if (
             filterProdukt == "alle" ||
             produkt.categories.includes(parseInt(filterProdukt))
@@ -139,13 +137,11 @@ get_header(); ?>
             klon.querySelector(".pris").textContent = produkt.pris + " kr.";
             klon.querySelector("img").src = produkt.billede[0].guid;
 
-            // gør man kan klikke på et produkt og den åbner singleview.
-            // produkt.link tager fat i linket til singleview siden
+            // klik på et produkt og åbne singleview.
             klon.querySelector("article").addEventListener("click", () => {
               location.href = produkt.link;
             });
 
-            //viser det i dommen
             container.appendChild(klon);
           }
         });

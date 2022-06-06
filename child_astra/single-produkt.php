@@ -101,7 +101,7 @@ get_header(); ?>
 
       let produkt;
 
-      //link til database med en php snippet med en function der gør vi kan få postens id.
+      //php snippet med en function der gør vi kan få postens id.
       const url = "https://nannatorp.dk/kea/10_eksamensprojekt/woofydays-wp/wp-json/wp/v2/produkt/"+<?php echo get_the_ID() ?>;
 
 
@@ -112,6 +112,7 @@ get_header(); ?>
      produkt = await data.json();
      visProdukter();
       }
+
       function visProdukter() {
        console.log(produkt.billede.guid);
 
@@ -147,10 +148,9 @@ get_header(); ?>
 
 
     let first_iteration = true;
-
-           //et array af billder og det looper vi igennem  med en html streng vi kloner billede containeren
-           //og sætter en inner html på med img så den løber igennem billederne til der ikke er flere med forEach
-           //hvis false tilføj classen billedeStor, hvis true tilføj ikke.
+           //array af billder. looper igennem. kloner billede containeren
+           //løber igennem billederne til der ikke er flere med forEach
+           //er true før vi løber igennem. løber igennem, tilføjer class = flase
            produkt.billede.forEach((pic) => {
             let img;
              if (first_iteration) {
