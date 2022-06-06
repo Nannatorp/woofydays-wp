@@ -37,6 +37,9 @@ a:visited {
 .wp-container-11.wp-block-columns {
   margin: 0px 100px 100px 100px;
 }
+.politik_text {
+  padding-right: 20px;
+}
 
 /* - 6 kasser på forsiden -  */
 .wp-container-7.wp-block-columns {
@@ -110,10 +113,10 @@ img.wp-image-166 {
   margin: 0px 0px 15px 0px !important;
 }
 .forside_h2_del {
-  margin: 0px 20px 20px 100px !important;
+  margin: 100px 20px 20px 100px !important;
 }
 .forside_ig_box {
-  margin: 0px 100px !important;
+  margin: 0px 100px 100px 100px !important;
 }
 .footer_link1 {
   margin: 50px 10px 10px 100px !important;
@@ -486,11 +489,12 @@ a.wp-block-button_link.has-background:hover {
 /* ------ FØDSELSDAG SIDE SLUT------ */
 
 /* ------ OM OS SIDE ------ */
+
 .om_h2 {
-  margin: 0px 10px 0px 100px !important;
+  margin: 100px 10px 0px 100px !important;
 }
 .om_column1 {
-  margin: 0px 100px 0px 10px !important;
+  margin: 100px 100px 0px 10px !important;
 }
 
 .om_h2_historie {
@@ -597,8 +601,222 @@ a.wp-block-button_link.has-background:hover {
   .effekt_container {
     margin: 0px 40px !important;
   }
+  .element.style {
+    height: 0px !important;
+  }
   .wp-block-video {
     padding: 40px;
   }
+  .farverig_kvalitet {
+    margin-left: 40px;
+  }
+  .forside_colum_video {
+    margin: 0px 40px !important;
+  }
+  .farverig_ptext1,
+  .farverig_ptext2 {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  .wp-container-9 {
+    padding-top: 20px;
+  }
+  .wp-container-9,
+  .wp-container-15 {
+    padding-bottom: 40px;
+  }
+  img.wp-image-166 {
+    padding: 0px 40px;
+  }
+  .forside_column1 {
+    margin: 40px 40px 0px 40px !important;
+  }
+  .overskrift_forside_kvindeejet {
+    padding: 20px 20px 0px 15px;
+  }
+  .forside_h3 {
+    padding: 0px 20px 0px 15px;
+    margin: 0px 0px 15px 0px !important;
+  }
+  .forside_p_tekst {
+    padding: 0px 20px 0px 15px !important;
+    margin: 0px 0px 15px 0px !important;
+  }
+  .forside_h2_del {
+    margin: 40px 40px 20px 40px !important;
+  }
+  .forside_ig_box {
+    margin: 0px 40px 40px 40px !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    grid-template-rows: 1fr 1fr !important;
+    gap: 20px;
+  }
+
+  .forside_biteme {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 90%;
+  }
+  .forside_rainbow1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 90%;
+  }
+  .forside_rainbow2 {
+    grid-row: 1/2;
+    grid-row: 2/3;
+    width: 90%;
+  }
+  .forside_rainbow3 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 90%;
+  }
+  .footer_link1 {
+    font-size: 0.8rem;
+    margin: 20px 40px 10px 40px !important;
+  }
+  .footer_link2,
+  .footer_link3 {
+    font-size: 0.8rem;
+    margin: 10px 40px 10px 40px !important;
+  }
+  .footer_link4 {
+    font-size: 0.8rem;
+    margin: 10px 40px 0px 40px !important;
+  }
+
+  .forside_nyhedsbrev {
+    font-size: 0.8rem;
+    margin: 0px 40px 10px 40px !important;
+  }
+  .forside_email {
+    font-size: 0.8rem;
+    margin: 10px 40px 20px 40px !important;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.9px);
+    -webkit-backdrop-filter: blur(3.9px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+  }
+  .birth_h1 {
+    margin-bottom: 0px !important;
+  }
+  .birth_h2 {
+    margin: 0px 40px 20px 40px !important;
+  }
+  .birth_p1 {
+    margin: 0px 40px !important;
+  }
+  .birth_nyhed {
+    margin: 40px 40px 0px 40px !important;
+  }
+  .birth_column {
+    margin: 40px 40px 40px 40px !important;
+  }
+  .birth_h2_box {
+    margin: 0px 40px 20px 40px !important;
+  }
+  .birth_column_pick {
+    margin: 0px 40px !important;
+  }
+  .wp-container-9 {
+    padding: 0px;
+  }
+  .size_column {
+    margin: 0px 40px !important;
+  }
+  .size_column2 {
+    margin: 0px 40px !important;
+  }
+  .size_video {
+    width: 90%;
+  }
+  .om_h2 {
+    margin: 20px 40px !important;
+  }
+  .om_column1 {
+    margin: 0px 40px 20px 40px !important;
+  }
+
+  .om_h2_historie {
+    margin: 0px 40px 20px 40px !important;
+  }
+  .om_p_historie1 {
+    margin: 0px 40px !important;
+  }
+  .om_p_historie2 {
+    margin: 0px 40px !important;
+    padding: 0px;
+  }
+  .om_column2 {
+    margin-bottom: 50px !important;
+  }
+
+  .om_kontakt2 {
+    padding-bottom: 40px;
+  }
+  .wp-container-11.wp-block-columns {
+    margin: 0px 40px !important;
+  }
+  .favorit_box {
+    padding: 40px !important;
+  }
+  .andre_kiggede {
+    margin: 0px 40px 20px 50px !important;
+  }
+  .favorit_box2 {
+    margin: 0px 40px 40px 40px !important;
+  }
+  .kurv_box1 {
+    margin: 40px !important;
+  }
+  .kurv_tex1,
+  .kurv_tex2 {
+    margin: 0px !important;
+  }
+  .kurv_box2 {
+    margin: 40px !important;
+  }
+  .kurv_total_box {
+    margin: 0px 40px !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .kurv_total {
+    grid-column: 1/2;
+  }
+  .kurv_mellemrum {
+    grid-column: 2/3;
+  }
+  .kurv_pris {
+    grid-column: 3/4;
+  }
+  .politik_h1,
+  .politik_text {
+    margin: 20px !important;
+  }
 }
 /* ------ MOBIL SLUT ------ */
+
+/* ------ TABLET ------ */
+@media (max-width: 921px) {
+  h1.has-text-align-right.has-x-large-font-size {
+    font-size: 70px !important;
+    margin-top: 90px !important;
+  }
+  h1.has-text-color.has-large-font-size {
+    font-size: 250px !important;
+  }
+  .celebrate_column {
+    margin: 0px 50px !important;
+  }
+  .politik_h1,
+  .politik_text {
+    margin-left: 100px !important;
+  }
+}
+/* ------ TABLET SLUT ------ */
