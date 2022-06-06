@@ -126,6 +126,9 @@ img.wp-image-166 {
   margin: 10px 10px 10px 100px !important;
 }
 .footer_link4 {
+  margin: 10px 10px 20px 100px !important;
+}
+.footer_some {
   margin: 10px 10px 50px 100px !important;
 }
 
@@ -673,6 +676,7 @@ a.wp-block-button_link.has-background:hover {
     grid-row: 2/3;
     width: 90%;
   }
+
   .footer_link1 {
     font-size: 0.8rem;
     margin: 20px 40px 10px 40px !important;
@@ -680,11 +684,27 @@ a.wp-block-button_link.has-background:hover {
   .footer_link2,
   .footer_link3 {
     font-size: 0.8rem;
-    margin: 10px 40px 10px 40px !important;
+    margin: 10px 40px !important;
   }
   .footer_link4 {
     font-size: 0.8rem;
     margin: 10px 40px 0px 40px !important;
+  }
+  .footer_fb {
+    grid-column: 1/2;
+  }
+  .footer_ig {
+    grid-column: 2/3;
+  }
+  .footer_tt {
+    grid-column: 3/4;
+  }
+  .footer_some {
+    margin: 10px 10px 0px 40px !important;
+    padding: 0px;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: row;
   }
 
   .forside_nyhedsbrev {
@@ -795,28 +815,256 @@ a.wp-block-button_link.has-background:hover {
   .kurv_pris {
     grid-column: 3/4;
   }
+  #ub_divider_b38dda68-0de3-4dd3-b907-8e0e9286238d {
+    width: 80%;
+  }
   .politik_h1,
   .politik_text {
     margin: 20px !important;
   }
+  #singleview {
+    padding: 40px;
+  }
+  #innersingleview {
+    margin-top: 20px;
+    grid-row: 2/3;
+    grid-column: 1/8;
+    grid-template-rows: repeat(5, 0.2fr);
+  }
+  #innersingleview h2 {
+    padding-left: 0px;
+  }
+  #innersingleview .pris {
+    padding-left: 0px;
+  }
+  #innersingleview a.sizeguide {
+    margin: 10px 0px !important;
+    width: 95%;
+  }
+  #innersingleview button.sizeguide {
+    padding: 10px 20px;
+    margin: 0px !important;
+  }
+  #innersingleview .hjerte {
+    padding: 0px 0px 10px 20px;
+    margin: 10px 0px !important;
+    font-size: 1.5rem;
+  }
+  #innersingleview .size_s {
+    margin: 10px 0px !important;
+  }
+  #innersingleview .size_l {
+    margin: 10px 0px !important;
+  }
+  #innersingleview .item {
+    margin: 10px 0px !important;
+    word-spacing: 10px;
+  }
+  #innersingleview .basket {
+    margin: 10px 0px 10px 10px !important;
+  }
+  .billedecontainer {
+    grid-row: 1/2;
+    width: 90%;
+  }
+  .billedeStor {
+    top: 3.5%;
+    left: 26%;
+    width: 60%;
+  }
+  #singleview2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    margin: 40px !important;
+  }
+  .produktbeskrivelse {
+    font-size: 1.5rem;
+    margin: 0px 0px 20px 0px !important;
+  }
+  .underoverskrift-1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: 0px !important;
+  }
+  .beskrivelse-1 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin: 0px 0px 20px 0px !important;
+  }
+  .underoverskrift-2 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    margin: 0px !important;
+  }
+  .beskrivelse-2 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+    margin: 0px 0px 20px 0px !important;
+  }
+  .underoverskrift-3 {
+    grid-column: 1/2;
+    grid-row: 6/7;
+    margin: 0px !important;
+  }
+  .beskrivelse-3 {
+    grid-column: 1/2;
+    grid-row: 7/8;
+    margin: 0px 0px 20px 0px !important;
+  }
+  .underoverskrift-4 {
+    grid-column: 1/2;
+    grid-row: 8/9;
+    margin: 0px !important;
+  }
+  .beskrivelse-4 {
+    grid-column: 1/2;
+    grid-row: 9/10;
+    margin: 0px 0px 20px 0px !important;
+  }
+  .underoverskrift-5 {
+    grid-column: 1/2;
+    grid-row: 10/11;
+    margin: 0px !important;
+  }
+  .beskrivelse-5 {
+    grid-column: 1/2;
+    grid-row: 11/12;
+    margin: 0px 0px 20px 0px !important;
+  }
+  .underoverskrift-6 {
+    grid-column: 1/2;
+    grid-row: 12/13;
+    margin: 0px !important;
+  }
+  .beskrivelse-6 {
+    grid-column: 1/2;
+    grid-row: 13/14;
+    margin: 0px 0px 20px 0px !important;
+  }
+  #singleview3 {
+    display: flex;
+    flex-direction: column;
+    grid-column-gap: 20px;
+    margin: 40px !important;
+  }
+  #kiggede1 {
+    margin: 0px 10px !important;
+  }
+  .lilla_walk,
+  .lilla_pris,
+  .green_walk,
+  .green_pris,
+  .yellow_walk,
+  .yellow_pris {
+    margin: 0px !important;
+  }
+  #kiggede2 {
+    margin: 0px 10px !important;
+    width: 100%;
+  }
+  #kiggede3 {
+    margin: 0px 10px !important;
+    width: 100%;
+  }
+  .border {
+    margin: 0px 10px 20px 10px !important;
+    padding-left: 10px;
+    width: 100%;
+  }
+  .poter_singleview {
+    margin-bottom: 40px;
+  }
+}
+.produktcontainer {
+  margin: 0px 40px;
 }
 /* ------ MOBIL SLUT ------ */
 
 /* ------ TABLET ------ */
-@media (max-width: 921px) {
+@media (min-width: 545px) and (max-width: 921px) {
+  .celebrate_column {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 0px 100px !important;
+  }
   h1.has-text-align-right.has-x-large-font-size {
-    font-size: 70px !important;
-    margin-top: 90px !important;
+    font-size: 40px !important;
+    margin-top: 60px !important;
+    grid-column: 1/2;
   }
   h1.has-text-color.has-large-font-size {
-    font-size: 250px !important;
+    font-size: 150px !important;
+    grid-column: 2/3;
   }
   .celebrate_column {
     margin: 0px 50px !important;
   }
+  .forside_h2_del {
+    margin: 40px 100px 20px 100px !important;
+  }
+  .forside_ig_box {
+    margin: 0px 100px 40px 100px !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    grid-template-rows: 1fr 1fr !important;
+    gap: 20px;
+  }
+  .forside_biteme {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 90%;
+    margin-bottom: 20px !important;
+  }
+  .forside_rainbow1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 90%;
+    margin-bottom: 20px !important;
+  }
+  .forside_rainbow2 {
+    grid-row: 1/2;
+    grid-row: 2/3;
+    width: 90%;
+  }
+  .forside_rainbow3 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 90%;
+  }
   .politik_h1,
   .politik_text {
     margin-left: 100px !important;
+  }
+  #singleview2 {
+    margin: 100px !important;
+  }
+  .produktbeskrivelse {
+    margin: 0px 0px 20px 0px !important;
+  }
+  .underoverskrift-1,
+  .underoverskrift-2,
+  .underoverskrift-3,
+  .underoverskrift-4,
+  .underoverskrift-5,
+  .underoverskrift-6 {
+    margin: 0px 20px 0px 0px !important;
+  }
+  .beskrivelse-1,
+  .beskrivelse-2,
+  .beskrivelse-3,
+  .beskrivelse-4,
+  .beskrivelse-5,
+  .beskrivelse-6 {
+    margin: 0px 20px 20px 0px !important;
+  }
+  div.wpforms-container-full .wpforms-form .wpforms-field-description,
+  div.wpforms-container-full .wpforms-form .wpforms-field-limit-text {
+    margin-right: 100px !important;
+  }
+  #ub_divider_b38dda68-0de3-4dd3-b907-8e0e9286238d {
+    width: 75%;
   }
 }
 /* ------ TABLET SLUT ------ */
