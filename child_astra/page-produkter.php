@@ -44,7 +44,7 @@ get_header(); ?>
         <button data-produkt="alle">Alle produkter</button>
       </nav>
 
-      <h1 class="produkttitel">Produkter</h1>
+      <h1 class="produkttitel">Alle produkter</h1>
 
       <section class="produktcontainer"></section>
 

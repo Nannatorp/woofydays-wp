@@ -975,10 +975,15 @@ a.wp-block-button_link.has-background:hover {
   .poter_singleview {
     margin-bottom: 40px;
   }
+  .size_h1 {
+    text-align: left;
+    margin-left: 40px !important;
+  }
 }
 .produktcontainer {
   margin: 0px 40px;
 }
+
 /* ------ MOBIL SLUT ------ */
 
 /* ------ TABLET ------ */
